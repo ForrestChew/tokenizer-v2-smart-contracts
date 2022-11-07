@@ -1,13 +1,10 @@
-# Sample Hardhat Project
+# Tokenizer Version 2 Smart Contracts
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+### Summary
 
-Try running some of the following tasks:
+This repositoy conatains the smart contracts used in [Tokenizer_v2.](https://github.com/ForrestChew/tokenizer_v2)
+Both the ERC721 and ERC20 contracts are rather primitive, as they are just used to the [Tokenizer_v2](https://github.com/ForrestChew/tokenizer_v2) project.
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
-```
+### Repo Contents
+
+Aside from the smart contracts, a deployment script as well as a script to check token balances can be found. Additionally, tests were provided for the smart contracts.
